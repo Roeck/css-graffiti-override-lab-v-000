@@ -6,3 +6,10 @@
   display: block;
   margin-left: 20rem;
 }
+
+#wall #tag-2 {
+  background: url(../images/tag-2.png) no-repeat;
+  z-index: 6;
+  display: block;
+  margin-right: 20rem;
+}

@@ -1,39 +1,7 @@
-/* write your override styles here */
-
-.tag-1 {
-  background: url(../images/tag-1.png) no-repeat;
-  z-index: 7;
-  display: block;
-  margin-left: 20rem;
-}
-
-#wall #tag-2 {
-  background: url(../images/tag-2.png) no-repeat;
-  z-index: 6;
-  display: block;
-  margin-left: 80rem;
-
-}
-
-/* GUY */
-#wall #tag-4 {
-  background: url(../images/tag-4.png) no-repeat;
-  z-index: 4;
-  display: block;
-  margin-left: 10rem;
-}
-
-/* SMALL BOTTOM */
-div#wall .parent #tag-5.slick {
-  background: url(../images/tag-5.png) no-repeat;
-  z-index: 1;
-  display: block;
-  margin-left: 200rem;
-}
-
-div#wall div.parent div:last-child div#tag-6 {
-  background: url(../images/tag-6.png) no-repeat;
-  z-index: 2;
-  display: block;
-  margin-left: 40rem;
+#wall div,
+#wall div#tag-2,
+div#wall div#tag-3.slick.wicked,
+div#wall div#tag-4
+ {
+  display: none;
 }
